@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dr. Ayesha Rahman | Endocrinologist in Dhaka</title>
+  <meta name="description" content="Endocrinologist and diabetologist in Dhaka. Diabetes, thyroid, PCOS and hormone care at Lakeview Diagnostic Centre, Dhanmondi.">
+  <meta name="theme-color" content="#062426">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- SVG icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-calendar-check" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M9 16l2 2 4-4"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l7-4 7 4v14M10 21v-4h4v4M9 9h.01M15 9h.01M9 13h.01M15 13h.01"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/></symbol>
+    <!-- service icons -->
+    <symbol id="s-diabetes" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7Z"/><path d="M9.5 15.5h5M12 13v5"/></symbol>
+    <symbol id="s-thyroid" viewBox="0 0 24 24"><path d="M12 6v14"/><path d="M12 9c-2-3.2-7.5-3.2-7.5 2.2 0 4.3 3.2 7.6 5.8 6.4 1.1-.5 1.7-2 1.7-4.3"/><path d="M12 9c2-3.2 7.5-3.2 7.5 2.2 0 4.3-3.2 7.6-5.8 6.4-1.1-.5-1.7-2-1.7-4.3"/></symbol>
+    <symbol id="s-pcos" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M12 15v7M9 19h6"/></symbol>
+    <symbol id="s-weight" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M7.5 10a6 6 0 0 1 9 0"/><path d="m12 10 1.6-2.4"/></symbol>
+    <symbol id="s-hormone" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="8" r="2.4"/><circle cx="9" cy="18" r="2.4"/><circle cx="19" cy="19" r="1.8"/><path d="m8.3 6.4 7.3 1.2M7 8.2l1.4 7.5M16.4 9.9l-5.7 6.3M11.4 18.2l5.8.6"/></symbol>
+    <symbol id="s-bone" viewBox="0 0 24 24"><path d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z"/></symbol>
+    <symbol id="s-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+    <symbol id="s-metabolic" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></symbol>
+    <!-- brand mark -->
+    <symbol id="brand" viewBox="0 0 64 64">
+      <defs><linearGradient id="bm-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#175655"/><stop offset="1" stop-color="#062426"/></linearGradient></defs>
+      <rect width="64" height="64" rx="18" fill="url(#bm-g)"/>
+      <rect x="26" y="13" width="12" height="38" rx="4" fill="#f2c262"/>
+      <rect x="13" y="26" width="38" height="12" rx="4" fill="#f2c262"/>
+      <circle cx="32" cy="32" r="4.5" fill="#062426"/>
+    </symbol>
+  </defs>
+</svg>
+
+<a href="#main" class="sr-only">Skip to main content</a>
+
+<!-- Top utility bar -->
+<div class="topbar on-dark">
+  <div class="container">
+    <p class="topbar-info">
+      <span><svg width="15" height="15" fill="none" stroke="#f2c262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-pin"/></svg>Lakeview Diagnostic Centre, Dhanmondi, Dhaka</span>
+      <span><svg width="15" height="15" fill="none" stroke="#f2c262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-clock"/></svg>Sat–Thu: 5 PM – 9 PM · Friday: 10 AM – 1 PM</span>
+    </p>
+    <a href="tel:+8801700000000"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-phone"/></svg>Serial: <span class="tabular">01700-000000</span></a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" width="46" height="46" aria-hidden="true"><use href="#brand"/></svg>
+      <span class="brand-text">
+        <span class="brand-name">Dr. Ayesha Rahman</span>
+        <span class="brand-sub">Endocrinologist &amp; Diabetologist</span>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="Main menu">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#chamber">Chamber</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="appointment.html" class="btn btn-primary"><svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-calendar"/></svg>Book appointment</a>
+      <button type="button" class="menu-btn" aria-controls="site-menu" aria-expanded="false" data-menu-open>
+        <span class="sr-only">Menu</span>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h14M3 10h14M3 14h9"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<dialog id="site-menu" class="drawer on-dark" aria-label="Main menu">
+  <div class="drawer-inner">
+    <div class="drawer-top">
+      <span><svg width="40" height="40" aria-hidden="true"><use href="#brand"/></svg>Dr. Ayesha Rahman</span>
+      <button type="button" class="drawer-close" data-menu-close><span class="sr-only">Close menu</span><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4l10 10M14 4 4 14"/></svg></button>
+    </div>
+    <nav aria-label="Main menu">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a href="#chamber">Chamber</a>
+    </nav>
+    <div class="drawer-foot">
+      <a href="appointment.html" class="btn btn-gold btn-block">Book appointment</a>
+      <a href="tel:+8801700000000" class="btn btn-ghost-light btn-block">Call for a serial · <span class="tabular">01700-000000</span></a>
+    </div>
+  </div>
+</dialog>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero on-dark section-deep">
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none">
+        <g stroke="#7fdccd" stroke-opacity=".25">
+          <circle cx="560" cy="260" r="120"/><circle cx="560" cy="260" r="200"/><circle cx="560" cy="260" r="290"/><circle cx="560" cy="260" r="390"/>
+        </g>
+        <g stroke="#f2c262" stroke-opacity=".35" stroke-width="1.5">
+          <path d="M420 120l60 35v70l-60 35-60-35v-70z"/><path d="M480 225l60 35v70l-60 35-60-35"/><path d="M660 380l50 29v58l-50 29-50-29v-58z"/>
+          <path d="M540 330l40 70M600 125l60-40 70 20"/>
+        </g>
+        <g fill="#7fdccd" fill-opacity=".5">
+          <circle cx="420" cy="120" r="5"/><circle cx="480" cy="155" r="4"/><circle cx="660" cy="85" r="5"/><circle cx="730" cy="105" r="4"/><circle cx="710" cy="409" r="4"/><circle cx="580" cy="400" r="5"/>
+        </g>
+      </svg>
+    </div>
+    <div class="hero-shade" aria-hidden="true"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="hero-hook rise"><i aria-hidden="true"></i>Living with diabetes, a thyroid condition or a hormone problem?</p>
+        <h1>
+          <span class="hero-name">Dr. Ayesha Rahman</span>
+          <span class="hero-role">Endocrinologist &amp; Diabetologist<span aria-hidden="true">|</span>Dhaka</span>
+        </h1>
+        <p class="hero-lead">Evidence-based care for diabetes, thyroid and hormone conditions, explained in plain language.</p>
+        <ul class="hero-creds rise rise-2">
+          <li class="chip"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-cap"/></svg>MBBS (DMC)</li>
+          <li class="chip"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-cap"/></svg>BCS (Health)</li>
+          <li class="chip"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-cap"/></svg>FCPS (Medicine)</li>
+          <li class="chip"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-cap"/></svg>MD (Endocrinology &amp; Metabolism)</li>
+        </ul>
+        <div class="btn-row rise rise-3">
+          <a href="appointment.html" class="btn btn-gold btn-arrow">Request an appointment</a>
+          <a href="tel:+8801700000000" class="btn btn-ghost-light"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-phone"/></svg>Serial: <span class="tabular">01700-000000</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual-wrap">
+        <div class="hero-visual">
+          <div class="hero-stage">
+            <!-- back layer: glow, rings, orbit -->
+            <svg viewBox="0 0 600 640" fill="none" aria-hidden="true">
+              <defs>
+                <radialGradient id="hero-glow" cx="50%" cy="48%" r="50%">
+                  <stop offset="0%" stop-color="#2f8a82" stop-opacity=".75"/>
+                  <stop offset="45%" stop-color="#175655" stop-opacity=".35"/>
+                  <stop offset="100%" stop-color="#062426" stop-opacity="0"/>
+                </radialGradient>
+                <linearGradient id="orbit-fade" x1="0" x2="1">
+                  <stop offset="0%" stop-color="#f2c262" stop-opacity=".95"/>
+                  <stop offset="50%" stop-color="#f2c262" stop-opacity=".25"/>
+                  <stop offset="100%" stop-color="#f2c262" stop-opacity=".95"/>
+                </linearGradient>
+              </defs>
+              <circle cx="300" cy="300" r="300" fill="url(#hero-glow)"/>
+              <circle cx="300" cy="300" r="250" stroke="#7fdccd" stroke-opacity=".14"/>
+              <circle cx="300" cy="300" r="200" stroke="#7fdccd" stroke-opacity=".1" stroke-dasharray="3 7"/>
+              <ellipse cx="300" cy="430" rx="290" ry="64" stroke="url(#orbit-fade)" stroke-opacity=".5" stroke-width="2"/>
+              <ellipse cx="300" cy="430" rx="250" ry="48" stroke="#7fdccd" stroke-opacity=".18"/>
+            </svg>
+
+            <div class="hero-photo">
+              <img src="images/doctor-2.jpg" width="369" height="554" alt="Portrait of Dr. Ayesha Rahman in a white coat with a stethoscope" fetchpriority="high">
+            </div>
+
+            <!-- front layer: near half of the orbit + pulsing nodes -->
+            <svg viewBox="0 0 600 640" fill="none" aria-hidden="true">
+              <path d="M10 430 A290 64 0 0 0 590 430" stroke="url(#orbit-fade)" stroke-width="2"/>
+              <g class="hero-dot"><circle cx="24.2" cy="410.4" r="10" fill="#f2c262" fill-opacity=".25"/><circle cx="24.2" cy="410.4" r="5" fill="#f2c262"/></g>
+              <g class="hero-dot"><circle cx="48.8" cy="462" r="10" fill="#f2c262" fill-opacity=".25"/><circle cx="48.8" cy="462" r="5" fill="#f2c262"/></g>
+              <g class="hero-dot"><circle cx="575.8" cy="410.4" r="10" fill="#f2c262" fill-opacity=".25"/><circle cx="575.8" cy="410.4" r="5" fill="#f2c262"/></g>
+              <g class="hero-dot"><circle cx="551.2" cy="462" r="10" fill="#f2c262" fill-opacity=".25"/><circle cx="551.2" cy="462" r="5" fill="#f2c262"/></g>
+            </svg>
+
+            <ul class="hero-nodes" aria-label="Common reasons to visit">
+              <li class="hero-node" style="left:4.03%;top:64.1%"><a href="#services">Thyroid</a></li>
+              <li class="hero-node" style="left:8.14%;top:72.19%"><a href="#services">Diabetes</a></li>
+              <li class="hero-node hero-node--right" style="left:95.97%;top:64.1%"><a href="#services">PCOS</a></li>
+              <li class="hero-node hero-node--right" style="left:91.86%;top:72.19%"><a href="#services">Vitamin D</a></li>
+            </ul>
+          </div>
+          <ul class="hero-chips" aria-label="Common reasons to visit">
+            <li><a href="#services" class="chip">Thyroid</a></li>
+            <li><a href="#services" class="chip">Diabetes</a></li>
+            <li><a href="#services" class="chip">PCOS</a></li>
+            <li><a href="#services" class="chip">Vitamin D</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chamber info strip -->
+  <section class="info-strip" aria-label="Chamber">
+    <div class="container">
+      <div class="info-grid">
+        <div class="info-cell">
+          <span class="info-icon"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-pin"/></svg></span>
+          <div>
+            <p class="info-label">Chamber</p>
+            <p class="info-value">Lakeview Diagnostic Centre</p>
+            <p class="info-sub">Road 27, Dhanmondi, Dhaka</p>
+          </div>
+        </div>
+        <div class="info-cell">
+          <span class="info-icon"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-clock"/></svg></span>
+          <div>
+            <p class="info-label">Consultation hours</p>
+            <p class="info-value">Sat–Thu<small>5 PM – 9 PM</small></p>
+            <p class="info-value">Friday<small>10 AM – 1 PM</small></p>
+          </div>
+        </div>
+        <div class="info-cell">
+          <span class="info-icon"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-calendar-check"/></svg></span>
+          <div>
+            <p class="info-label">Weekly off-day</p>
+            <p class="info-value">None, open every day</p>
+          </div>
+        </div>
+        <div class="info-cell is-dark on-dark">
+          <span class="info-icon"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-phone"/></svg></span>
+          <div>
+            <p class="info-label">Call for a serial</p>
+            <a href="tel:+8801700000000" class="big-phone tabular">01700-000000</a>
+            <a href="tel:+8801800000000" class="small-phone tabular">01800-000000</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div>
+        <div class="about-photo">
+          <div class="frame"><img src="images/doctor-2.jpg" width="369" height="554" alt="Dr. Ayesha Rahman" loading="lazy"></div>
+          <div class="exp-badge on-dark"><b>12+</b><span>years of clinical experience</span></div>
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow">About the doctor</p>
+        <h2 class="h2">About Dr. Ayesha Rahman</h2>
+        <p class="about-body">Dr. Ayesha Rahman is an endocrinologist and diabetologist in Dhaka with more than twelve years of clinical experience caring for people with diabetes, thyroid disease and hormone disorders. She focuses on clear explanations and practical treatment plans that fit everyday life.</p>
+        <div class="cred-grid">
+          <div class="cred"><i><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-cap"/></svg></i><span>MBBS (DMC)</span></div>
+          <div class="cred"><i><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-cap"/></svg></i><span>BCS (Health)</span></div>
+          <div class="cred"><i><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-cap"/></svg></i><span>FCPS (Medicine)</span></div>
+          <div class="cred"><i><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-cap"/></svg></i><span>MD (Endocrinology &amp; Metabolism)</span></div>
+        </div>
+        <ul class="affil">
+          <li><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-building"/></svg>Associate Professor, Department of Endocrinology, City Medical College Hospital, Dhaka</li>
+          <li><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-pin"/></svg>Lakeview Diagnostic Centre, Dhanmondi, Dhaka (private chamber)</li>
+        </ul>
+        <a href="#chamber" class="btn btn-primary btn-arrow">Visit the chamber</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section on-dark section-deep">
+    <div class="container">
+      <div class="section-head">
+        <div style="max-width:48rem">
+          <p class="eyebrow">Services</p>
+          <h2 class="h2">Care for hormone, diabetes and metabolic conditions</h2>
+          <p class="lead">From diabetes and thyroid disease to PCOS, weight and bone health, each condition explained in plain language.</p>
+        </div>
+        <a href="appointment.html" class="btn btn-ghost-light btn-arrow">Book a consultation</a>
+      </div>
+
+      <div class="service-grid">
+        <a href="appointment.html?reason=Diabetes" class="service-card">
+          <div class="service-art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#s-diabetes"/></svg></div>
+          <div class="service-body"><h3>Diabetes &amp; Blood Sugar Management</h3><p>Type 1, type 2 and gestational diabetes, from diagnosis to long-term control.</p><span class="read-more">Book for this <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a href="appointment.html?reason=Thyroid" class="service-card">
+          <div class="service-art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#s-thyroid"/></svg></div>
+          <div class="service-body"><h3>Thyroid Disorders</h3><p>Underactive and overactive thyroid, thyroid nodules and autoimmune thyroid disease.</p><span class="read-more">Book for this <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a href="appointment.html?reason=PCOS" class="service-card">
+          <div class="service-art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#s-pcos"/></svg></div>
+          <div class="service-body"><h3>Polycystic Ovary Syndrome (PCOS)</h3><p>Irregular periods, excess hair growth, acne and weight changes linked to hormones.</p><span class="read-more">Book for this <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a href="appointment.html?reason=Weight%20management" class="service-card">
+          <div class="service-art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#s-weight"/></svg></div>
+          <div class="service-body"><h3>Obesity &amp; Weight Management</h3><p>A medical look at why weight has increased, and a realistic plan for lasting weight loss.</p><span class="read-more">Book for this <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a href="appointment.html?reason=Hormonal%20disorder" class="service-card">
+          <div class="service-art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#s-hormone"/></svg></div>
+          <div class="service-body"><h3>Hormonal Disorders</h3><p>Assessment and treatment of problems with the body's hormone-producing glands.</p><span class="read-more">Book for this <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a href="appointment.html?reason=Osteoporosis" class="service-card">
+          <div class="service-art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#s-bone"/></svg></div>
+          <div class="service-body"><h3>Osteoporosis &amp; Low Bone Density</h3><p>Finding and treating weak bones before a fracture happens.</p><span class="read-more">Book for this <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a href="appointment.html?reason=Vitamin%20D" class="service-card">
+          <div class="service-art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#s-sun"/></svg></div>
+          <div class="service-body"><h3>Vitamin D Deficiency</h3><p>Testing, treating and preventing low vitamin D for healthier bones and muscles.</p><span class="read-more">Book for this <span aria-hidden="true">→</span></span></div>
+        </a>
+        <a href="appointment.html?reason=Metabolic%20syndrome" class="service-card">
+          <div class="service-art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#s-metabolic"/></svg></div>
+          <div class="service-body"><h3>Metabolic Syndrome</h3><p>Insulin resistance, high blood pressure, abnormal cholesterol and belly fat, managed together.</p><span class="read-more">Book for this <span aria-hidden="true">→</span></span></div>
+        </a>
+      </div>
+
+      <p class="more-title">More conditions treated</p>
+      <ul class="more-list">
+        <li><a href="appointment.html?reason=Cholesterol">High Cholesterol &amp; Dyslipidaemia</a></li>
+        <li><a href="appointment.html?reason=Bone%20health">Bone &amp; Calcium Health</a></li>
+        <li><a href="appointment.html?reason=Adrenal">Adrenal Gland Disorders</a></li>
+        <li><a href="appointment.html?reason=Cushing">Cushing's Syndrome</a></li>
+        <li><a href="appointment.html?reason=Pituitary">Pituitary Gland Disorders</a></li>
+        <li><a href="appointment.html?reason=Prolactin">Hyperprolactinaemia (High Prolactin)</a></li>
+        <li><a href="appointment.html?reason=Reproductive%20hormones">Reproductive Hormone Disorders</a></li>
+        <li><a href="appointment.html?reason=Growth%20and%20puberty">Growth &amp; Puberty Disorders</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Steps -->
+  <section class="section bg-mint">
+    <div class="container">
+      <div class="center-head">
+        <p class="eyebrow">Visiting the chamber</p>
+        <h2 class="h2">Three steps to a consultation</h2>
+      </div>
+      <ol class="steps">
+        <li class="step"><span class="step-num">1</span><h3>Send a request or call</h3><p>Request an appointment online, or call the serial number directly.</p></li>
+        <li class="step"><span class="step-num">2</span><h3>The chamber calls you back</h3><p>The chamber phones you to confirm your serial and time. An online request isn't confirmed on its own.</p></li>
+        <li class="step"><span class="step-num">3</span><h3>Come at your confirmed time</h3><p>Bring your previous prescriptions, test reports and a list of the medicines you take.</p></li>
+      </ol>
+      <div class="btn-row steps-cta">
+        <a href="appointment.html" class="btn btn-primary btn-arrow">Request an appointment</a>
+        <a href="tel:+8801700000000" class="btn btn-quiet">Call for a serial</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section bg-paper">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Gallery</p>
+          <h2 class="h2">Photos from the chamber</h2>
+        </div>
+      </div>
+      <div class="gallery">
+        <figure><img src="images/gallery-reception.jpg" alt="Reception desk at the chamber" loading="lazy"></figure>
+        <figure><img src="images/gallery-consult.jpg" alt="Doctor holding a stethoscope during a check-up" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews (sample testimonials — replace with real, consented patient reviews) -->
+  <section id="reviews" class="section bg-mint">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Patient experiences</p>
+          <h2 class="h2">What patients say</h2>
+        </div>
+      </div>
+      <div class="reviews-grid">
+        <div class="quotes">
+          <figure class="quote">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>She took the time to explain my thyroid reports properly. For the first time I understood what my medicine actually does.</blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">S</span><span><b>Sample Patient</b><span>Dhanmondi</span></span></figcaption>
+          </figure>
+          <figure class="quote">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>My sugar levels are finally under control. The diet plan was realistic and the follow-up calls really helped.</blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">R</span><span><b>Sample Reviewer</b><span>Mohammadpur</span></span></figcaption>
+          </figure>
+        </div>
+
+        <form class="form-card" id="review-form" novalidate>
+          <h3>Share your experience</h3>
+          <div>
+            <label for="rv-name" class="field-label">Name</label>
+            <input id="rv-name" name="name" class="input" type="text" required maxlength="100" autocomplete="name">
+          </div>
+          <div>
+            <label for="rv-area" class="field-label">Area <small>(optional)</small></label>
+            <input id="rv-area" name="area" class="input" type="text" maxlength="150">
+          </div>
+          <div>
+            <label for="rv-text" class="field-label">Your review</label>
+            <textarea id="rv-text" name="review" class="input" required rows="5" maxlength="1000" aria-describedby="rv-hint"></textarea>
+            <span id="rv-hint" class="field-hint">Please don't include medical details or personal health information.</span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-arrow">Send review</button>
+          <p class="form-success" role="status">Thank you! Your review will appear once it has been checked.</p>
+          <p class="form-note"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-shield"/></svg>Your review will be checked before it's published.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container faq-grid">
+      <div>
+        <p class="eyebrow">Questions</p>
+        <h2 class="h2">What patients usually ask</h2>
+        <div class="ask-box on-dark section-deep">
+          <p>Still have a question?</p>
+          <p>Call the chamber about serials or visiting hours, or send a message.</p>
+          <div class="btn-row">
+            <a href="tel:+8801700000000" class="btn btn-gold"><svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-phone"/></svg><span class="tabular">01700-000000</span></a>
+            <a href="mailto:chamber@example.com" class="btn btn-ghost-light">Email us</a>
+          </div>
+        </div>
+      </div>
+      <div class="faq-list">
+        <details class="faq" name="faq" open>
+          <summary><span>Where is the chamber, and when does the doctor see patients?</span><span class="faq-icon" aria-hidden="true"></span></summary>
+          <div class="faq-answer"><p>At Lakeview Diagnostic Centre, Road 27, Dhanmondi, Dhaka. Saturday to Thursday from 5 PM to 9 PM, and Friday from 10 AM to 1 PM.</p></div>
+        </details>
+        <details class="faq" name="faq">
+          <summary><span>How do I get a serial or an appointment?</span><span class="faq-icon" aria-hidden="true"></span></summary>
+          <div class="faq-answer"><p>Call 01700-000000 for a serial, or send a request through the appointment form on this website. If you send a request online, the chamber will call you to confirm a time.</p></div>
+        </details>
+        <details class="faq" name="faq">
+          <summary><span>Is my appointment confirmed as soon as I send an online request?</span><span class="faq-icon" aria-hidden="true"></span></summary>
+          <div class="faq-answer"><p>No. An online request is only a request. Your appointment is confirmed once the chamber calls you with your serial and time.</p></div>
+        </details>
+        <details class="faq" name="faq">
+          <summary><span>What should I bring to my first visit?</span><span class="faq-icon" aria-hidden="true"></span></summary>
+          <div class="faq-answer"><p>Bring all previous prescriptions, recent test reports and a list, or the packets, of the medicines you take. If you have diabetes, your home blood sugar notes are helpful too.</p></div>
+        </details>
+        <details class="faq" name="faq">
+          <summary><span>When should I see an endocrinologist?</span><span class="faq-icon" aria-hidden="true"></span></summary>
+          <div class="faq-answer"><p>Endocrinologists treat diabetes, thyroid problems, PCOS, obesity, bone loss and vitamin D deficiency, as well as diseases of hormone glands such as the adrenal and pituitary glands. Your GP may also refer you.</p></div>
+        </details>
+        <details class="faq" name="faq">
+          <summary><span>Do I need to fast before hormone tests?</span><span class="faq-icon" aria-hidden="true"></span></summary>
+          <div class="faq-answer"><p>Not always. Some tests need fasting and others must be done at a particular time of day. Follow the instructions from your doctor or the laboratory for each test.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chamber -->
+  <section id="chamber" class="section bg-mint">
+    <div class="container">
+      <p class="eyebrow">Chamber</p>
+      <h2 class="h2">Where and when to visit</h2>
+      <div class="chamber-grid">
+        <div class="chamber-card">
+          <div class="chamber-card-head on-dark section-deep">
+            <p class="city"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-pin"/></svg>Dhaka</p>
+            <p class="venue">Lakeview Diagnostic Centre</p>
+            <p>Road 27, Dhanmondi, Dhaka</p>
+          </div>
+          <div class="chamber-card-body">
+            <dl class="hours">
+              <div><dt>Sat–Thu</dt><dd>5 PM – 9 PM</dd></div>
+              <div><dt>Friday</dt><dd>10 AM – 1 PM</dd></div>
+            </dl>
+            <p class="chamber-call-label">Call for a serial</p>
+            <a href="tel:+8801700000000" class="chamber-call tabular">01700-000000</a>
+            <div class="btn-row">
+              <a href="appointment.html" class="btn btn-primary">Request an appointment</a>
+              <a href="mailto:chamber@example.com" class="btn btn-quiet">Email</a>
+            </div>
+          </div>
+        </div>
+        <div class="map-facade on-dark" data-map="https://www.google.com/maps?q=Dhanmondi%20Lake%2C%20Dhaka&amp;output=embed">
+          <svg viewBox="0 0 700 420" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true">
+            <g stroke="#eaf2f0" stroke-opacity=".09">
+              <path d="M0 60h700M0 140h700M0 220h700M0 300h700M0 380h700M80 0v420M200 0v420M320 0v420M440 0v420M560 0v420M680 0v420"/>
+            </g>
+            <g stroke="#d4a24c" stroke-opacity=".55" stroke-width="3" stroke-linecap="round">
+              <path d="M-10 250C120 230 210 170 330 180s230 70 380 30"/>
+              <path d="M260 -10c20 120 40 200 80 260s40 120 20 180"/>
+            </g>
+            <path d="M420 90c60-20 130 0 150 50s-30 90-90 90-110-20-115-70 15-60 55-70Z" fill="#7fdccd" fill-opacity=".12" stroke="#7fdccd" stroke-opacity=".3"/>
+          </svg>
+          <svg class="map-pin" width="44" height="44" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 22s8-6 8-12a8 8 0 0 0-16 0c0 6 8 12 8 12Z"/><circle cx="12" cy="10" r="3" fill="#062426"/></svg>
+          <div class="map-overlay">
+            <button type="button" class="btn btn-gold" data-map-load>Show map</button>
+            <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Dhanmondi%20Lake%2C%20Dhaka" target="_blank" rel="noopener noreferrer">Get directions in Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing CTA -->
+  <section class="cta-wrap">
+    <div class="cta-box on-dark section-deep">
+      <svg class="cta-rings" viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice" fill="none" aria-hidden="true">
+        <g stroke="#7fdccd" stroke-opacity=".18"><circle cx="400" cy="420" r="160"/><circle cx="400" cy="420" r="260"/><circle cx="400" cy="420" r="360"/></g>
+        <ellipse cx="400" cy="420" rx="420" ry="90" stroke="#f2c262" stroke-opacity=".35" stroke-width="1.5"/>
+      </svg>
+      <h2>Ready to see the doctor?</h2>
+      <p>Call for a serial or send a request online. The chamber will call you to confirm a time.</p>
+      <div class="btn-row">
+        <a href="appointment.html" class="btn btn-gold btn-arrow">Request an appointment</a>
+        <a href="tel:+8801700000000" class="btn btn-ghost-light">Serial: <span class="tabular">01700-000000</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer on-dark section-deep">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">
+        <svg width="46" height="46" aria-hidden="true"><use href="#brand"/></svg>
+        <div><p>Dr. Ayesha Rahman</p><p>Endocrinologist &amp; Diabetologist</p></div>
+      </div>
+      <p class="footer-about">Evidence-based care and plain-language patient education for diabetes, thyroid and hormone conditions.</p>
+      <div class="footer-actions">
+        <a href="appointment.html" class="btn btn-gold">Book appointment</a>
+        <a href="#" class="social" aria-label="Facebook"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><use href="#i-facebook"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h3>Pages</h3>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#chamber">Chamber</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Conditions</h3>
+      <ul>
+        <li><a href="appointment.html?reason=Diabetes">Diabetes</a></li>
+        <li><a href="appointment.html?reason=Thyroid">Thyroid disorders</a></li>
+        <li><a href="appointment.html?reason=PCOS">PCOS</a></li>
+        <li><a href="appointment.html?reason=Weight%20management">Obesity &amp; weight</a></li>
+        <li><a href="appointment.html?reason=Hormonal%20disorder">Hormonal disorders</a></li>
+        <li><a href="appointment.html?reason=Osteoporosis">Osteoporosis</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <ul class="footer-contact">
+        <li><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-pin"/></svg><span>Lakeview Diagnostic Centre, Road 27, Dhanmondi, Dhaka</span></li>
+        <li><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-clock"/></svg><span>Sat–Thu 5 PM – 9 PM<br>Fri 10 AM – 1 PM</span></li>
+        <li><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-phone"/></svg><span><a href="tel:+8801700000000" class="tabular">01700-000000</a><br><a href="tel:+8801800000000" class="tabular">01800-000000</a></span></li>
+        <li><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-mail"/></svg><a href="mailto:chamber@example.com">chamber@example.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© <span data-year>2026</span> Dr. Ayesha Rahman. All rights reserved.</p>
+      <nav aria-label="Legal"><a href="#">Privacy policy</a><a href="#">Terms</a><a href="#reviews">Patient reviews</a></nav>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile bottom bar -->
+<div class="mobile-bar">
+  <a href="tel:+8801700000000" class="btn btn-quiet"><svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-phone"/></svg>Call</a>
+  <a href="appointment.html" class="btn btn-primary">Appointment</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
